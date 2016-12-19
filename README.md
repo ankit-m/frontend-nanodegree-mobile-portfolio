@@ -38,4 +38,5 @@ To optimize views/pizza.html, you will need to modify views/js/main.js until you
 #### Optimizations
 
 1. Remove FSL (Forced Synchronous Layouts) in two loops
-2. Reduce the number of pizzas from 200 to 20
+2. Reduce the number of pizzas from 200 to 24
+3. Add `transform: translateZ(0);` in `.mover` class to trigger GPU.
